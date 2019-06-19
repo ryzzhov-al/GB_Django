@@ -1,0 +1,274 @@
+body
+{
+    background-color: #f8f8f8;
+}
+
+.menu1,.submenu1
+{
+    color:black;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.h1,.h2,.h3
+{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.short
+{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed
+{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.ch
+{
+    color: black;
+    font-size: 16px;
+    font-style: oblique;
+    line-height: 16px;
+    list-style-image: url(iphoneX.litle.jpg);
+    margin-left: 35px;
+}
+
+input[type="text"]
+{
+	font-size:14px;
+	color:gray;
+}
+
+input[id="name"]
+{
+    width: 300px; 
+    height: 20px;
+}
+
+input[id="e-mail"]
+{
+    width: 300px; 
+    height: 20px;
+}
+
+
+.bord
+{
+   border:4px solid #484343;
+	
+}
+/*img[alt]:hover*/
+.bord:hover
+{
+    border: 4px solid #f8f8f8;
+}
+
+.menu1:hover
+{
+    color: brown;
+}
+
+/*.fig img
+{
+    border: 4px solid #f8f8f8;
+}*/
+
+input[id="e-mail"]:focus 
+{
+    background-color: beige;
+    color: green;
+}
+
+input[id="name"],input[id="e-mail"]
+{
+   text-transform: capitalize; 
+}
+
+.de:first-letter
+{
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 200%; 
+    color: darkblue; 
+}
+
+.home:hover
+{
+	border-radius:250px;
+}
+
+.container
+{
+    /*border: 1px solid black;*/
+    max-width: 1300px;
+    margin: auto;
+    
+}
+
+.header
+{
+    height: 70px;
+    position: relative;
+    background-color: #eaeaea;
+}
+
+.menu1
+{
+    margin-right: 35px;
+}
+
+.footer
+{
+    height: 100px;
+    background-color: beige;
+    position: relative;
+    
+}
+
+.fot
+{
+    right: 50px;
+    top: 55px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.logo
+{
+    left: 100px;
+    top:-10px;
+    position: absolute;
+}
+    
+.menu
+{
+    left: 450px;
+    top:20px;
+    margin-right: 15px;
+    position: absolute;
+}
+
+
+.maps
+{
+    width: 100%;
+    height: 375px;
+}
+.shortop
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.catalog
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.catalog h1
+{
+    position: absolute;
+    text-align: center;
+}
+
+.catalog1,.catalog2,.catalog3
+{
+    padding: 80px;
+}
+.catalog1,.catalog2,.catalog3,.catalog4,.catalog5 {
+    text-align: center;
+}
+
+input[type="button"]:hover
+{
+    color: #04145c;
+}
+
+input[type="button"]:active
+{
+    background-color: #b2a3a3;
+}
+
+.homeimgg
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+.homeimg    
+{
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.homeimg4,.homeimg1,.homeimg2,.homeimg3
+{
+    /*border: 25px solid red;*/
+    /*outline: 1px solid red;*/
+    width: 630px;
+    height: 630px;
+    margin-bottom: -80px;
+}
+
+.catalog3 p
+{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+label
+{
+    display: inline-block;
+    width: 50px;
+}
+
+
+/*--------------------------
+горизонтальное ложное меню*/
+    
+ul {
+  list-style: none; /*убираем маоркеры*/
+  margin: 0;
+  padding: 0;
+}
+    
+.topmenu > li {
+  display: inline-block; /*делаем меню гоизонтальным*/
+  position: relative;
+}
+
+.submenu {
+  display: none;
+}
+.menu ul li:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  position: absolute;
+
+}
+.submenu1:hover{
+   color: brown; 
+}

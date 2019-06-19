@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 500px) 
+{
+	.header
+	{
+		background-color:rgb(111, 114, 110);
+		opacity:0.8;
+	}
+	
+	.footer
+	{
+		background-color:#D5E9E8;
+		opacity:0.7;
+	}
+}
