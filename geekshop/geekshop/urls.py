@@ -18,10 +18,10 @@ from django.contrib import admin
 import mainapp.views as mainapp
 
 urlpatterns = [
-    path('', mainapp.main),
-    path('products/', mainapp.products),
-    path('contacts/', mainapp.contacts),
-    path('iphoneX/', mainapp.iphoneX),
-    path('iphone8/', mainapp.iphone8),
+    path('', mainapp.main, name='main'),
+    path('products/', mainapp.products, name='products'),
+    path('contacts/', mainapp.contacts, name='contacts'),
+    path('iphoneX/', mainapp.iphoneX, name='iphoneX'),
+    path('iphone8/', mainapp.iphone8, name='iphone8'),
     path('admin/', admin.site.urls),
 ]
