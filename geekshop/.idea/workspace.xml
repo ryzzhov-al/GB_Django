@@ -125,6 +125,7 @@
         <option value="$PROJECT_DIR$/geekshop/settings.py" />
         <option value="$PROJECT_DIR$/geekshop/urls.py" />
         <option value="$PROJECT_DIR$/mainapp/views.py" />
+
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_menu.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" />
@@ -276,7 +277,9 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
     <option name="totallyTimeSpent" value="46538000" />
+
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,7 +293,9 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+
       <window_info content_ui="combo" id="Project" order="0" weight="0.14372164" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -307,7 +312,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
+
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.25204584" />
+
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.2782324" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -452,8 +459,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/iphoneX.html">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="431">
           <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+
         </state>
       </provider>
     </entry>
