@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+    {% endblock %}
+
+    {% block css %}
+    {% endblock %}
+</head>
+<body>
+<div class="container">
+
+    {% block header %}
+    {% endblock %}
+
+    {% include 'mainapp/includes/inc_menu.html'%}
+
+    {% block content %}
+    {% endblock %}
+
+    {% block footer %}
+    {% endblock %}
+</div>
+</body>
+</html>

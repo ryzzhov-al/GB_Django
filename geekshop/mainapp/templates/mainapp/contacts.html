@@ -1,75 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Интернет магазин</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
-</head>
-<body>
- <div class="container">
- <div class="header">
- <header>
-   <div class="logo">
-      <a href="index.html"><p class="fig"><img class="fig" src="/static/img/logo.png"
-      width="60" height="50" alt="Фотография"></p></a>
-    </div>
+{% extends 'mainapp/base.html'%}
 
- <nav class="menu">
-   <ul class="topmenu">
-      <li><a class="menu1" href="/">Главная</a></li>
-      <li><a class="menu1" href="/products/">Каталог</a>
-          <ul class="submenu">
-             <li><a class="submenu1" href="/iphoneX/">Iphone X</a></li>
-             <li><a class="submenu1" href="/iphone8/">Iphone 8</a></li>
-          </ul>
-      </li>
-      <li><a class="menu1" href="/contacts/">Контакты</a></li>
-   </ul>
-</nav>
- </header>
- </div>
-     <div class="home">
-       <p><a href="/">Главная</a> >  Контакты </p>
-     </div>
-   <h2>Напишите нам</h2>
-<form>
-       <fieldset>
-           <legend>Контактная информация</legend> <br>
-           <p><label for="name">Имя  </label><input type="text" id="name"> </p>
-           <p><label for="e-mail">e-mail</label><input type="text" id="e-mail"></p>
-           <p><label for="name">Тема  </label><input type="text" id="name"></p>
-           <textarea cols="100" rows="20"></textarea> <br>
-           <input type="button" value="Отправить"> <br>
-           <h3>Адрес</h3>
-           <p>Друзья, мы работаем для вас с понедельника по пятницу с 10:00 до 21:00. <br>
-              В субботу и воскресенье - с 11:00 до 20:00 <br> <br>
+    {% block title %}
+        <title>Интернет магазин</title>
+    {% endblock %}
 
-             Пункт самовывоза в будние дни работает с 11:00 до 20:00. <br>
-             Пункт самовывоза в выходные дни работает с 11:30 до 19:00 <br> <br>
-             Вы всегда сможете получить техническую поддержку и консультацию по ассортименту наших товаров следующими способами: </p><br>
-             <ul>
-                 <li>Контактный номер телефона интернет-магазина: <b>8(495)777 777</b></li>
-                 <li>Адрес: <b>Москва</b></li>
-                 <li>E-mail: <b>IM@ya.ru</b></li>
-             </ul>
-             <div class="maps">
-             <h2>Как к нам добраться</h2>
-              <iframe src="https://yandex.ru/map-widget/v1/-/CVgQyK3F" width="100%" height="375px" frameborder="0"></iframe>
-             </div>
-             
-       </fieldset>
-</form>
-       
-   <div class="footer">
-    <footer>
-    <hr>
-    <div class="fot"><p>&copy;Все права защищены.</p></div>
-    </footer>
-   </div>
-</div>
+    {% block css %}
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    {% endblock %}
+
+    {% block header %}
+         <div class="header">
+         <header>
+           <div class="logo">
+              <a href="index.html"><p class="fig"><img class="fig" src="/static/img/logo.png"
+              width="60" height="50" alt="Фотография"></p></a>
+            </div>
+         </header>
+         </div>
+    {% endblock %}
+
+    {% block content %}
+         <div class="home">
+           <p><a href="/">Главная</a> >  Контакты </p>
+         </div>
+
+
+           <h2>Напишите нам</h2>
+        <form>
+               <fieldset>
+                   <legend>Контактная информация</legend> <br>
+                   <p><label for="name">Имя  </label><input type="text" id="name"> </p>
+                   <p><label for="e-mail">e-mail</label><input type="text" id="e-mail"></p>
+                   <p><label for="name">Тема  </label><input type="text" id="name"></p>
+                   <textarea cols="100" rows="20"></textarea> <br>
+                   <input type="button" value="Отправить"> <br>
+                   <h3>Адрес</h3>
+                   <p>Друзья, мы работаем для вас с понедельника по пятницу с 10:00 до 21:00. <br>
+                      В субботу и воскресенье - с 11:00 до 20:00 <br> <br>
+
+                     Пункт самовывоза в будние дни работает с 11:00 до 20:00. <br>
+                     Пункт самовывоза в выходные дни работает с 11:30 до 19:00 <br> <br>
+                     Вы всегда сможете получить техническую поддержку и консультацию по ассортименту наших товаров следующими способами: </p><br>
+                     <ul>
+                         <li>Контактный номер телефона интернет-магазина: <b>8(495)777 777</b></li>
+                         <li>Адрес: <b>Москва</b></li>
+                         <li>E-mail: <b>IM@ya.ru</b></li>
+                     </ul>
+                     <div class="maps">
+                     <h2>Как к нам добраться</h2>
+                      <iframe src="https://yandex.ru/map-widget/v1/-/CVgQyK3F" width="100%" height="375px" frameborder="0"></iframe>
+                     </div>
+
+               </fieldset>
+        </form>
+    {% endblock %}
+
+    {% block footer %}
+       <div class="footer">
+        <footer>
+        <hr>
+        <div class="fot"><p>&copy;Все права защищены.</p></div>
+        </footer>
+       </div>
+    {% endblock %}
    
     
-</body>
-</html>
+
 
 
