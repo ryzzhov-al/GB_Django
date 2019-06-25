@@ -1,0 +1,12 @@
+<nav class="menu">
+    <ul class="topmenu">
+        <li><a class="menu1" href="{% url 'main' %}">Галавнее</a></li>
+        <li><a class="menu1" href="{% url 'products' %}">Каталог</a>
+            <ul class="submenu">
+                <li><a class="submenu1" href="{% url 'iphoneX' %}">Iphone X</a></li>
+                <li><a class="submenu1" href="{% url 'iphone8' %}">Iphone 8</a></li>
+            </ul>
+        </li>
+        <li><a class="menu1" href="{% url 'contacts' %}">Контакты</a></li>
+    </ul>
+</nav>
